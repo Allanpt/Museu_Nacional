@@ -4,7 +4,44 @@
     box-sizing: border-box;
 }
 body {
-    background: url(assets/fundo.png) repeat-x;
+    background: #f4f2ec url(assets/fundo.png) repeat-x;
     font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
-
 }
+a:link, a:active, a:visited {
+	color: #af670a;
+	text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+#container {
+    width: 1080px;
+    height: 1374px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+nav ul {
+    display: flex;
+    gap: 25px;
+    margin-right: 45px;
+}
+
+nav ul li a:hover{
+    color: #227115;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #535858;
+}
+#principal {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
