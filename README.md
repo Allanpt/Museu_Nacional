@@ -18,7 +18,7 @@ Modelo de site utilizando ferramentas do HTML e CSS como: Keyframes(Animações)
 <br>
 
 <p align="center">
-  <img alt="projeto Museu Nacional" src=".github/2023-07-05%20(1).png
+  <img alt="projeto Museu Nacional" src=".github/2023-07-05.png>
 
 ## :rocket: Tecnologia
 
