@@ -1,10 +1,10 @@
 /*Animações*/
 @keyframes pulo {
     0%, 100% {
-      transform: scale(1); /* Posição inicial e final */
+      transform: scale(1); 
     }
     50% {
-      transform: scale(1.05); /* Posição intermediária */
+      transform: scale(1.05); 
     }
   }
 
@@ -27,9 +27,7 @@ ul {
 }
 #container {
     width: 1080px;
-    height: 1060px;
     margin: 0 auto;
-    border: 1px solid red;
 }
 /*Cabeçalho*/
 header {
@@ -58,14 +56,11 @@ nav ul li a:hover{
     gap: 20px;
     width: 710px;
 }
-
 #principal img,iframe {
     animation: pulo 2s;
     animation-delay: 3s;
     transition: 0.3s;
-   
 }
-
 #principal img:hover,iframe:hover {
     transform: scale(1.055);
 }
@@ -80,7 +75,6 @@ main #postagens {
     flex-direction: column;
     gap: 10px;
     padding: 0 25px;
-    border: 1px solid red;
 }
 main #postagens article{
     width: 310px;
@@ -113,5 +107,78 @@ main #postagens #line2 #historia a {
 aside {
     display: flex;
     flex-direction: column;
-
+}
+/*Formulário*/
+aside #faca-uma-visita {
+    background: #cdc8b1;
+    margin-top: 10px;
+    padding: 10px 27px 27px 27px;
+}
+aside #faca-uma-visita h4 {
+    color: #86521a;
+    padding: 15px 0 5px 0;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+aside #faca-uma-visita fieldset {
+    border: none;
+}
+aside #faca-uma-visita #check {
+    border: none;
+    width: 100%;
+    height: 54px;
+    font-size: 1.2em;
+    color: white;
+    background: #9b9271;
+}
+/*Galeria de Fotos*/
+aside #galeria-de-fotos{
+    background: #ebe7dd;
+    padding: 10px 0 27px 27px;
+}
+aside #galeria-de-fotos h4{
+    color: #86521a;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+aside #fotos {
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+aside #fotos a{
+    animation: pulo 2s;
+    animation-delay: 3s;
+    transition: 0.3s;
+}
+aside #fotos img{
+    display: block;
+    padding: 15px;
+    background:  url(assets/fundo-foto.png) no-repeat center;
+}
+/*Rodapé*/
+footer {
+    padding: 20px 0 40px 0;
+    display: flex;
+    flex-direction: column;
+}
+footer a:hover{
+    color: #227115;
+}
+footer img{
+    display: block;
+    margin: 0px auto;
+}
+footer ul{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+}
+footer p{
+    padding-top: 12px;
+    text-align: center;
 }
